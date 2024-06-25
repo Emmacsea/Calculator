@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background: hsl(222, 26%, 31%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    max-width: 400px;
+    width: 300px;
+    height: auto;
+    padding: 1.2em 0;
+}
+
+#container #top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    align-self: start;
+    margin-bottom: .8em;
+}
+
+#top h3 {
+    color:hsl(0, 0%, 100%) ;
+    font-size: .9em;
+    font-weight: 300;
+}
+
+#top #theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#theme h5 {
+    color:hsl(0, 0%, 100%) ;
+    font-size: .3em;
+}
+
+#theme nav #num {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#num .num {
+    display: flex;
+    gap: 7px;
+}
+
+#container #displayresult {
+    width: 100%;
+    padding: .5em 1.4em;
+    background: hsl(224, 36%, 15%);
+    margin-bottom: .5em;
+    border-radius: .2em;
+} 
+
+#displayresult p {
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    font-size: 1.2em;
+    color:hsl(0, 0%, 100%);
+}
+
+#container #calculator {
+    padding: .8em .6em;
+    background: hsl(224, 36%, 15%);
+    border-radius: .2em;
+}
+
+#calculator #cal .calnum {
+    margin-bottom: .8em;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 7px;
+}
+
+.calnum .button {
+    outline: none;
+    border: none;
+    width: 55px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: .7em;
+    font-weight: 600;
+    background: hsl(0, 0%, 100%);
+    padding: 1em 1.6em;
+    color: hsl(224, 28%, 35%);
+    cursor: pointer;
+    border-radius: .3em;
+}
+
+.calnum #del {
+    font-size: .7em;
+    padding: 1em 1.6em;
+    background: hsl(224, 28%, 35%);
+    color: hsl(0, 0%, 100%);
+    text-transform:  uppercase;
+}
+
+#cal #btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7px;
+}
+
+#btn .btn {
+    outline: none;
+    border: none;
+    width: 45%;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: .7em;
+    font-weight: 600;
+    background: hsl(0, 0%, 100%);
+    padding: 1em 1.6em;
+    color: hsl(224, 28%, 35%);
+    cursor: pointer;
+    border-radius: .3em;
+
+}
+
+#btn #reset {
+    font-size: .7em;
+    padding: 1em 1.6em;
+    background: hsl(224, 28%, 35%);
+    color: hsl(0, 0%, 100%);
+    text-transform:  uppercase;
+}
+
+#btn #result {
+    font-size: .7em;
+    padding: 1em 1.6em;
+    background: hsl(6, 63%, 50%);
+    color: hsl(0, 0%, 100%);
+    text-transform:  uppercase;
+}
