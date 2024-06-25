@@ -42,13 +42,11 @@ function App() {
       setCal((prev) => String(eval(prev)))
       
     } catch (error) {
-        setCal('Error');
+      setCal('Error')
       
     }
+    
 
-    if (cal.length >= 3) {
-      setCal((prev) => prev + ",")
-    }
   }
 
   
@@ -64,7 +62,6 @@ function App() {
       onClickDivide={handleDivide}
       onClickReset={handleReset}
       onClickResult={handleResult}
-      onNum={handleNum}
       displayResult={cal}
       />
     </div>

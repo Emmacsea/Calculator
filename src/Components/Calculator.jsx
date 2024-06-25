@@ -29,7 +29,7 @@ export const Calculator = ({
                 </div>
 
                 <div id={style.displayresult}>
-                    <p>{onNum}</p>
+                    
                     <p>{displayResult}</p>
                 </div>
 
